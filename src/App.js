@@ -3,11 +3,14 @@ import PreventRerendring from "./components/PreventRendering/PreventRerendring";
 import ContextParent from "./components/ContextApi/ContextParent";
 import ComponentHasError from "./components/ErrorBoundry/ComponentHasError";
 import ErrorBoundary from "./components/ErrorBoundry/ErrorBoundry";
-import Child from "./components/Higherorder/Child";
-import HigherOrder from "./components/Higherorder/HigherOrder";
+import TempParent from "./components/UseMemoExample/TempConvertor";
+import Form from "./components/Form";
+import withLoading from "./components/Higherorder/withLoading";
+import DisplayData from "./components/Higherorder/Display";
 
 function App() {
-  const [text, setText] = useState(0);
+
+  const WrapperComponent = withLoading(DisplayData);
   
   return (
     <div>
@@ -26,8 +29,10 @@ function App() {
       
       
       {/* HOC */}
-      {/* <HigherOrder comp={Child} /> */}
-
+      <h1>Higher Order Component</h1>
+      <WrapperComponent/>
+    
+      {/* <Form /> */}
     </div>
   );
 }

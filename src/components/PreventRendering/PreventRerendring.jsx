@@ -26,7 +26,7 @@ function PreventRerendring() {
   )
 }
 
-export default PreventRerendring
+export default PreventRerendring;
 
 
 

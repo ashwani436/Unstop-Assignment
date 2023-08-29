@@ -1,0 +1,228 @@
+.createNewAssessment {
+  position: relative;
+  font-weight: 600;
+}
+.cutIcon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.createNewAssessmentParent {
+  align-self: stretch;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--text-white);
+  border: 1px solid var(--system-stroke2);
+  box-sizing: border-box;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xl);
+  align-items: center;
+  justify-content: space-between;
+}
+.nameOfAssessment {
+  position: relative;
+  font-weight: 500;
+}
+.nameOfAssessmentWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameContainer,
+.nameOfAssessmentWrapper,
+.typeHereWrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.typeHereWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--text-white);
+  border: 1px solid var(--system-stroke2);
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-mini);
+  align-items: center;
+  font-size: var(--font-size-sm);
+}
+.frameContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.keyboardArrowDownIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.closeIcon,
+.keyboardArrowDownIcon,
+.selectParent {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.selectParent {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--text-white);
+  border: 1px solid var(--system-stroke2);
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini);
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+}
+.closeIcon {
+  position: relative;
+  border-radius: var(--br-mini);
+  width: 18px;
+  height: 18px;
+}
+.uiuxAndDesignParent {
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.frameParent5,
+.frameWrapper,
+.uiuxAndDesignParent {
+  display: flex;
+  flex-direction: row;
+}
+.frameWrapper {
+  border-radius: var(--br-3xl);
+  background-color: var(--accent-blue-light);
+  padding: var(--padding-7xs) var(--padding-5xs) var(--padding-7xs)
+    var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-end;
+}
+.frameParent5 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameParent4 {
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  border: 1px solid var(--system-divider);
+  padding: var(--padding-base);
+  gap: var(--gap-3xs);
+}
+.frameParent3,
+.frameParent4,
+.typeHereContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.typeHereContainer {
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  border: 1px solid var(--system-divider);
+  box-sizing: border-box;
+  height: 50px;
+  padding: var(--padding-base);
+  margin-top: -1px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.frameParent3 {
+  text-align: left;
+  font-size: var(--font-size-xs);
+}
+.keyboardArrowDownIcon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0;
+}
+.hhmmssParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--text-white);
+  border: 1px solid var(--system-stroke2);
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-mini);
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--primary-50);
+}
+.buttons,
+.frameGroup,
+.hhmmssParent {
+  align-self: stretch;
+  display: flex;
+}
+.frameGroup {
+  background-color: var(--text-white);
+  border: 1px solid var(--system-stroke2);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-11xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  margin-top: -1px;
+  font-size: var(--font-size-base);
+}
+.buttons {
+  border-radius: var(--br-5xs);
+  background-color: var(--secondary-1);
+  height: 40px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonsWrapper,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buttonsWrapper {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--text-white);
+  box-shadow: 0-4px 50px rgba(0, 0, 0, 0.09);
+  border-right: 1px solid var(--system-stroke2);
+  border-bottom: 1px solid var(--system-stroke2);
+  border-left: 1px solid var(--system-stroke2);
+  overflow: hidden;
+  padding: var(--padding-xl) var(--padding-11xl);
+  justify-content: center;
+  margin-top: -1px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--text-white);
+}
+.frameParent {
+  position: relative;
+  width: 591px;
+  justify-content: flex-start;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--text-100);
+  font-family: var(--font-inter);
+}

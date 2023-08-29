@@ -1,0 +1,812 @@
+.frameChild {
+  position: absolute;
+  top: 2px;
+  left: 156px;
+  width: 1264px;
+}
+.assessment {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.frameItem {
+  position: relative;
+  width: 1px;
+  height: 46px;
+}
+.myAssessments {
+  position: relative;
+  font-weight: 600;
+}
+.myAssessmentsWrapper {
+  background-color: var(--text-white);
+  border-bottom: 3px solid var(--secondary-1);
+  box-sizing: border-box;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0;
+  align-items: center;
+  justify-content: center;
+}
+.assessmentParent,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-items: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--secondary-1);
+}
+.assessmentParent {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 91.67%;
+  width: 58.29%;
+  top: 4.17%;
+  right: 20.83%;
+  bottom: 4.17%;
+  left: 20.88%;
+}
+.mobileScreenShare {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mobileScreenShareWrapper {
+  border-radius: var(--br-51xl);
+  background-color: var(--text-white);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.frameContainer,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameWrapper {
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+  background-color: var(--text-white);
+  border-bottom: 1px solid var(--system-divider);
+  box-sizing: border-box;
+  height: 71px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.assessmentsOverview {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.b,
+.frameInner {
+  position: relative;
+}
+.frameInner {
+  border-radius: var(--br-5xs);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.b {
+  line-height: 140%;
+}
+.frameParent3,
+.totalAssessmentParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xl);
+}
+.totalAssessmentParent {
+  align-self: stretch;
+  background-color: var(--text-white);
+  width: 162px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.frameChild1 {
+  align-self: stretch;
+  position: relative;
+  max-height: 100%;
+  width: 1px;
+}
+.div {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 140%;
+  font-weight: 500;
+  color: var(--status-success);
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.totalCandidate {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 140%;
+  font-weight: 500;
+}
+.frameParent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.frameChild2 {
+  position: relative;
+  width: 1px;
+  height: 40px;
+}
+.frameParent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+}
+.candidatesParent,
+.candidatesSourceParent,
+.totalPurposeParent {
+  align-self: stretch;
+  background-color: var(--text-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.candidatesParent {
+  flex: 1;
+  display: flex;
+  padding: var(--padding-base) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.candidatesSourceParent,
+.totalPurposeParent {
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.candidatesSourceParent {
+  width: 499px;
+  display: flex;
+  padding: var(--padding-base) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.totalPurposeParent {
+  width: 188px;
+  padding: var(--padding-base) 50px var(--padding-base) var(--padding-xl);
+}
+.assessmentsOverviewParent,
+.frameParent2,
+.totalPurposeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--system-stroke2);
+  box-sizing: border-box;
+  width: 1226px;
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-12xs);
+  font-size: var(--font-size-sm);
+}
+.assessmentsOverviewParent {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameChild9 {
+  border-radius: var(--br-51xl);
+  background-color: var(--text-white);
+  width: 40px;
+  height: 40px;
+}
+.frameWrapper3,
+.myAssessmentParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.myAssessmentParent {
+  width: 1224px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.addIcon,
+.addWrapper {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.addWrapper {
+  border-radius: 72px;
+  background-color: var(--text-white);
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.newAssessment {
+  position: relative;
+  font-weight: 500;
+}
+.frameParent16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  z-index: 0;
+}
+.fromHereYou {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  z-index: 1;
+}
+.vectorIcon2 {
+  position: absolute;
+  margin: 0 !important;
+  top: -19px;
+  left: 470px;
+  width: 149px;
+  height: 149px;
+  z-index: 2;
+}
+.frameParent15 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--system-background);
+  border: 1px dashed var(--system-stroke2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xl);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+.frameChild10,
+.job {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild10 {
+  border-radius: var(--br-xs);
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.job {
+  line-height: 140%;
+  font-weight: 600;
+  display: inline-block;
+  width: 26px;
+  height: 20px;
+}
+.frameChild11 {
+  position: relative;
+  width: 1px;
+  height: 16px;
+}
+.calendarTodayIcon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.calendarTodayParent,
+.jobParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.calendarTodayParent {
+  height: 22px;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-xs);
+  color: var(--primary-50);
+}
+.jobParent {
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-sm);
+}
+.frameParent19,
+.mathAssessmentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameParent19 {
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.dotIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.dotWrapper,
+.frameParent18 {
+  display: flex;
+  flex-direction: row;
+}
+.dotWrapper {
+  border-radius: var(--br-31xl);
+  background-color: var(--text-white);
+  width: 30px;
+  height: 30px;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent18 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  z-index: 0;
+}
+.frameChild12 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.duration {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 140%;
+  font-weight: 500;
+  margin-top: -1px;
+}
+.frameParent21,
+.parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent21 {
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.linkIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.linkParent {
+  border-radius: var(--br-31xl);
+  background-color: var(--text-white);
+  border: 1px solid var(--text-100);
+  box-sizing: border-box;
+  height: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-5xs) var(--padding-11xs)
+    var(--padding-7xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.lp {
+  position: relative;
+}
+.lpWrapper {
+  border-radius: 32.73px;
+  background-color: var(--pastel-neon-blue);
+  border: 1px solid var(--text-white);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-7xs);
+  align-items: flex-end;
+  justify-content: center;
+}
+.frameWrapper4 {
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--text-white);
+}
+.frameParent20,
+.frameParent22,
+.frameWrapper4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent22 {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameParent20 {
+  align-self: stretch;
+  justify-content: space-between;
+  z-index: 2;
+  font-size: var(--font-size-sm);
+}
+.frameChild13 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  width: 58px;
+  height: 49px;
+  z-index: 3;
+}
+.frameParent17,
+.lpFrame,
+.lpWrapper1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.frameParent17 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--text-white);
+  border: 1px solid var(--system-stroke2);
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-base);
+}
+.lpFrame,
+.lpWrapper1 {
+  border-radius: 32.73px;
+  background-color: var(--pastel-royal-blue);
+  border: 1px solid var(--text-white);
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  padding: var(--padding-8xs) var(--padding-7xs);
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: -15.59px;
+}
+.lpWrapper1 {
+  background-color: var(--accent-pink);
+}
+.frameParent14,
+.frameParent29 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent14 {
+  width: 1224px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.frameChild18 {
+  width: 1224px;
+}
+.frameParent1,
+.frameParent13 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent13 {
+  gap: var(--gap-11xl);
+}
+.frameParent1 {
+  gap: 24px;
+}
+.frameParent1,
+.frameWrapper2 {
+  align-self: stretch;
+}
+.frameGroup,
+.frameWrapper1,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-xs) var(--br-xs);
+  background-color: var(--text-white);
+  overflow-y: auto;
+  padding: var(--padding-xl);
+  z-index: 0;
+  font-size: var(--font-size-lg);
+}
+.frameGroup {
+  position: absolute;
+  top: 3px;
+  left: 156px;
+  width: 1264px;
+}
+.dashboardIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.dashboard {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  z-index: 1;
+}
+.rectangleDiv {
+  position: absolute;
+  margin: 0 !important;
+  top: 5px;
+  right: 5px;
+  border-radius: var(--br-3xs);
+  background-color: var(--accent-new-red);
+  width: 7px;
+  height: 7px;
+  opacity: 0;
+  z-index: 2;
+}
+.dashboardParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--text-white);
+  width: 90px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-7xs);
+}
+.noteAltIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  z-index: 0;
+}
+.noteAltParent {
+  border-radius: var(--br-5xs);
+  background-color: #e5f1fc;
+  border: 1px solid var(--secondary-1);
+  width: 90px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+  color: var(--secondary-1);
+}
+.noteAltParent,
+.quizParent {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+.frameChild20,
+.quizParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--text-white);
+  width: 90px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.billAndPlanLineWrapper,
+.frameParent31 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.billAndPlanLineWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--text-white);
+  width: 90px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+}
+.frameParent31 {
+  height: 225px;
+  padding: 0 0 var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameChild23 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.adminWrapper {
+  border-radius: var(--br-3xl);
+  background-color: var(--accent-red-light);
+  border: 1px solid var(--accent-new-red);
+  box-sizing: border-box;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.round {
+  margin: 0;
+}
+.adminMedsParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--text-white);
+  width: 90px;
+  overflow: hidden;
+  display: flex;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--text-100);
+}
+.adminMedsParent,
+.frameParent32,
+.vectorParent {
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent32 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.vectorParent {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: 10px;
+  color: var(--accent-new-red);
+}
+.frameA,
+.frameParent30,
+.vectorParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent30 {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.frameA {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  background-color: var(--text-white);
+  height: 992px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xl) var(--padding-xl)
+    var(--padding-11xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  font-size: var(--font-size-xs);
+  color: inherit;
+}
+.frameParent {
+  position: relative;
+  background-color: var(--system-background);
+  width: 100%;
+  height: 1532px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text-100);
+  font-family: var(--font-inter);
+}
